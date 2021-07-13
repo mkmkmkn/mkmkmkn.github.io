@@ -34,7 +34,7 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            ろんです。
+            <b>RON</b><br/>6/25生まれ 大阪府堺市出身 B型<br/>Guitarist<br/><br/>&darr;Like<br/>CASCADE<br/>THE YELLOW MONKEY<br/>&amp;<br/>LUIGI<br/>Family Computer
           </p>
           {close}
         </article>
@@ -50,13 +50,9 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <h3>20XX.07.10</h3>
+          <h3>2021.06.25&#040;Fri&#041;</h3>
           <p>
-            本文テキスト本文テキスト本文テキスト
-          </p>
-          <h3>19XX.06.25</h3>
-          <p>
-            本文テキスト本文テキスト本文テキスト
+            本日よりデジタル音源第1弾<br/>「The sky」配信開始！<br/>今回の楽曲はゆるやかポップインストです。<br/>旅のお供に、ゴルフのお供に、<br/>夏のドライブのお供にどうぞ。<br/><br/><a href="https://www.tunecore.co.jp/artists/RONboy">https://www.tunecore.co.jp/artists/RONboy</a><br/><br/>
           </p>
           {close}
         </article>
@@ -72,11 +68,9 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
-          <h3>20XX.07.01</h3>
+          <h3></h3>
           <p>
-          FMXX「XXXX」&#040;16:00〜 20:00&#041;にて<br />
-          Ron（Gt.）ゲスト生出演！<br />
-          <a href="#">http://fmXX.co.jp/</a>
+            <br/><br/>
           </p>
           {close}
         </article>
@@ -92,9 +86,9 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic04} alt="" />
           </span>
-          <h3>20XX.06.30</h3>
+          <h3></h3>
           <p>
-            XXにてライブ開催決定！
+            <br/><br/>
           </p>
           {close}
         </article>
@@ -132,19 +126,19 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/RON_625"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://www.facebook.com/ron625" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://www.instagram.com/ron625/?hl=ja" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>{/* 

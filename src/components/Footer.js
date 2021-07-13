@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; <a href="#">mk</a></p>
+        <p className="copyright">&copy;mk</p>
     </footer>
 )
 
