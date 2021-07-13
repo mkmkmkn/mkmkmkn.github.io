@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Dimension V2',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    title: 'RON OFFICIAL WEBSITE',
+    author: 'MK',
+    description: 'RON公式ウェブサイト。プロフィール、ライブやイベントといった活動情報、リリース情報等。',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
