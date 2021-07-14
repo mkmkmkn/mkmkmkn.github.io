@@ -101,18 +101,21 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form
+            method="post"
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf9Csrbqrpnb3m7ZbWYrPZRaxzj8E8-6VOYmyRVC8ChdwqkKw/formResponse"
+          >
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="entry.1468219197" id="name" required=""/>
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="email" name="entry.377096930" id="email" required=""/>
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="entry.1971985601" id="message" rows="4" required=""></textarea>
             </div>
             <ul className="actions">
               <li>
