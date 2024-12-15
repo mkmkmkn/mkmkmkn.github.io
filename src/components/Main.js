@@ -54,15 +54,24 @@ class Main extends React.Component {
             <br />
             [SNS]
             <br />
-              <a href="https://twitter.com/RON_625" className="icon fa-twitter">
-                <span className="label">Twitter</span>
-              </a>
-              <a
-                href="https://www.instagram.com/ron625/?hl=ja"
-                className="icon fa-instagram"
-              >
-                <span className="label">Instagram</span>
-              </a>
+            <ul className="icons">
+              <li>
+                <a
+                  href="https://twitter.com/RON_625"
+                  className="icon fa-twitter"
+                >
+                  <span className="label">Twitter</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/ron625/?hl=ja"
+                  className="icon fa-instagram"
+                >
+                  <span className="label">Instagram</span>
+                </a>
+              </li>
+            </ul>
           </p>
           {close}
         </article>
@@ -78,29 +87,29 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-            横浜ベイスターズ
-            <br />
-            関根大気選手入場曲
-            <br />
-            DUFF「HERO」
-            <br />
-            Guitar
-            <br />
-            <br />
-            日本ハムファイターズ
-            <br />
-            加藤貴之投手入場曲
-            <br />
-            VOG「Try my life」
-            <br />
-            Guitar composing arrange
-            <br />
-            <br />
-            沖縄銀行CM
-            <br />
-            おきぎんスマート
-            <br />
-            sound担当
+          横浜ベイスターズ
+          <br />
+          関根大気選手入場曲
+          <br />
+          DUFF「HERO」
+          <br />
+          Guitar
+          <br />
+          <br />
+          日本ハムファイターズ
+          <br />
+          加藤貴之投手入場曲
+          <br />
+          VOG「Try my life」
+          <br />
+          Guitar composing arrange
+          <br />
+          <br />
+          沖縄銀行CM
+          <br />
+          おきぎんスマート
+          <br />
+          sound担当
           {close}
         </article>
 
