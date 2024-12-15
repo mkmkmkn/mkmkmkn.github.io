@@ -34,8 +34,73 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            <b>RON</b><br/>6/25生まれ 大阪府堺市出身 B型<br/>Guitarist<br/><br/>&darr;Like<br/>CASCADE<br/>THE YELLOW MONKEY<br/>&amp;<br/>LUIGI<br/>Family Computer
+            <b>RON</b>
+            <br />
+            6/25 生まれ
+            <br />
+            大阪府堺市出身
+            <br />
+            B型
+            <br />
+            <br />
+            影響を受けたアーティスト
+            <br />
+            CASCADE
+            <br />
+            THE YELLOW MONKEY
+            <br />
+            氣志團
+            <br />
+            <br />
+            [SNS]
+            <br />
+              <a href="https://twitter.com/RON_625" className="icon fa-twitter">
+                <span className="label">Twitter</span>
+              </a>
+              <a
+                href="https://www.instagram.com/ron625/?hl=ja"
+                className="icon fa-instagram"
+              >
+                <span className="label">Instagram</span>
+              </a>
           </p>
+          {close}
+        </article>
+
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Work</h2>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+            横浜ベイスターズ
+            <br />
+            関根大気選手入場曲
+            <br />
+            DUFF「HERO」
+            <br />
+            Guitar
+            <br />
+            <br />
+            日本ハムファイターズ
+            <br />
+            加藤貴之投手入場曲
+            <br />
+            VOG「Try my life」
+            <br />
+            Guitar composing arrange
+            <br />
+            <br />
+            沖縄銀行CM
+            <br />
+            おきぎんスマート
+            <br />
+            sound担当
           {close}
         </article>
 
@@ -52,12 +117,27 @@ class Main extends React.Component {
           </span>
           <h3>2021.06.25&#040;Fri&#041;</h3>
           <p>
-            本日よりデジタル音源第1弾<br/>「The sky」配信開始！<br/>今回の楽曲はゆるやかポップインストです。<br/>旅のお供に、ゴルフのお供に、<br/>夏のドライブのお供にどうぞ。<br/><br/><a href="https://www.tunecore.co.jp/artists/RONboy">https://www.tunecore.co.jp/artists/RONboy</a><br/><br/>
+            本日よりデジタル音源第1弾
+            <br />
+            「The sky」配信開始！
+            <br />
+            今回の楽曲はゆるやかポップインストです。
+            <br />
+            旅のお供に、ゴルフのお供に、
+            <br />
+            夏のドライブのお供にどうぞ。
+            <br />
+            <br />
+            <a href="https://www.tunecore.co.jp/artists/RONboy">
+              https://www.tunecore.co.jp/artists/RONboy
+            </a>
+            <br />
+            <br />
           </p>
           {close}
         </article>
 
-        <article
+        {/* <article
           id="media"
           className={`${this.props.article === 'media' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -70,12 +150,13 @@ class Main extends React.Component {
           </span>
           <h3></h3>
           <p>
-            <br/><br/>
+            <br />
+            <br />
           </p>
           {close}
-        </article>
+        </article> */}
 
-        <article
+        {/* <article
           id="live"
           className={`${this.props.article === 'live' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -88,10 +169,11 @@ class Main extends React.Component {
           </span>
           <h3></h3>
           <p>
-            <br/><br/>
+            <br />
+            <br />
           </p>
           {close}
-        </article>
+        </article> */}
 
         <article
           id="contact"
@@ -107,15 +189,30 @@ class Main extends React.Component {
           >
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="entry.1468219197" id="name" required=""/>
+              <input
+                type="text"
+                name="entry.1468219197"
+                id="name"
+                required=""
+              />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="email" name="entry.377096930" id="email" required=""/>
+              <input
+                type="email"
+                name="entry.377096930"
+                id="email"
+                required=""
+              />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="entry.1971985601" id="message" rows="4" required=""></textarea>
+              <textarea
+                name="entry.1971985601"
+                id="message"
+                rows="4"
+                required=""
+              ></textarea>
             </div>
             <ul className="actions">
               <li>
@@ -128,31 +225,18 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/RON_625"
-                className="icon fa-twitter"
-              >
+              <a href="https://twitter.com/RON_625" className="icon fa-twitter">
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/ron625" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/ron625/?hl=ja" className="icon fa-instagram">
+              <a
+                href="https://www.instagram.com/ron625/?hl=ja"
+                className="icon fa-instagram"
+              >
                 <span className="label">Instagram</span>
               </a>
-            </li>{/* 
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li> */}
+            </li>
           </ul>
           {close}
         </article>

@@ -28,7 +28,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('infomation')
+              props.onOpenArticle('work')
             }}
           >
             Info
@@ -37,13 +37,22 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
+              props.onOpenArticle('infomation')
+            }}
+          >
+            Info
+          </button>
+        </li>
+        {/* <li>
+          <button
+            onClick={() => {
               props.onOpenArticle('media')
             }}
           >
             Media
           </button>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <button
             onClick={() => {
               props.onOpenArticle('live')
@@ -51,7 +60,7 @@ const Header = props => (
           >
             Live
           </button>
-        </li>
+        </li> */}
         <li>
           <button
             onClick={() => {
