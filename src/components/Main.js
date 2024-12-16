@@ -137,11 +137,6 @@ class Main extends React.Component {
             夏のドライブのお供にどうぞ。
             <br />
             <br />
-            <a href="https://www.tunecore.co.jp/artists/RONboy">
-              https://www.tunecore.co.jp/artists/RONboy
-            </a>
-            <br />
-            <br />
           </p>
           {close}
         </article>
