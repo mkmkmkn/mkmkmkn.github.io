@@ -32,8 +32,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Profile</h2>
           <span className="image main">
-            <img src={pic01} alt="" 
-        style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
+            <img src={pic01} alt="" />
           </span>
           <p>
             <b>RON</b>
@@ -127,7 +126,8 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <h3>2025.08.22&#040;Fri&#041;</h3>
-          <img src={pic10} alt="" />
+          <img src={pic10} alt="" 
+        style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
           <p>
             「MAGICAL CHAIN ひとり SPECIAL at 山科清水焼団地」
             <br />
