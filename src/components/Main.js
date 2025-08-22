@@ -32,7 +32,8 @@ class Main extends React.Component {
         >
           <h2 className="major">Profile</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic01} alt="" 
+        style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
           </span>
           <p>
             <b>RON</b>
