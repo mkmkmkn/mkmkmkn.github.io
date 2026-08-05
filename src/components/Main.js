@@ -5,6 +5,8 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic10 from '../images/pic10.jpg'
+import pic260816_1 from '../images/pic260816_1.jpg'
+import pic260829_1 from '../images/pic260829_1.jpg'
 
 class Main extends React.Component {
   render() {
@@ -129,7 +131,7 @@ class Main extends React.Component {
           </span>
           
           <h3>2026.08.29&#040;Sat&#041;</h3>
-          <img src={260829_1} alt="" 
+          <img src={pic260829_1} alt="" 
             style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
           <p>
             MAGICAL CHAIN ひとりSPECIAL＠山科Vol.2
@@ -149,7 +151,7 @@ class Main extends React.Component {
           </p>
 
           <h3>2026.08.16&#040;Sun&#041;</h3>
-          <img src={260816_1} alt="" 
+          <img src={pic260816_1} alt="" 
             style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
           <p>
             京都RAG
