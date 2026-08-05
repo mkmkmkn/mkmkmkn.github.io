@@ -114,6 +114,8 @@ class Main extends React.Component {
           {close}
         </article>
 
+        {/* infomation ここから */}
+
         <article
           id="infomation"
           className={`${this.props.article === 'infomation' ? 'active' : ''} ${
@@ -125,9 +127,45 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+          
+          <h3>2026.08.29&#040;Sat&#041;</h3>
+          <img src={260829_1} alt="" 
+            style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
+          <p>
+            MAGICAL CHAIN ひとりSPECIAL＠山科Vol.2
+            <br />
+            カフヱのちオンガク室
+            <br />
+            開場18:00
+            <br />
+            開演18:30
+            <br />
+            SOLD OUT
+            <br />
+            <br />
+            act ウルフルケイスケ
+            <br />
+            O.A RoNtmore
+          </p>
+
+          <h3>2026.08.16&#040;Sun&#041;</h3>
+          <img src={260816_1} alt="" 
+            style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
+          <p>
+            京都RAG
+            <br />
+            タルタルロックフェス最終日
+            <br />
+            TAMA(CASCADE)with ステシュラで
+            <br />
+            ギターで飛び入り参加します。
+            <br />
+            18:10～
+          </p>
+
           <h3>2025.08.22&#040;Fri&#041;</h3>
           <img src={pic10} alt="" 
-        style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
+            style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
           <p>
             「MAGICAL CHAIN ひとり SPECIAL at 山科清水焼団地」
             <br />
@@ -202,9 +240,11 @@ class Main extends React.Component {
             ※O.A「ロントモア」＝ご当地シンガーソングライター・モア宮川と、バンド「DUFF」の元ギタリストRONによるユニット。RoNt more
             <br />
             <br />
-            </p>
+          </p>
           {close}
         </article>
+
+        {/* infomation ここまで */}
 
         {/* <article
           id="media"
