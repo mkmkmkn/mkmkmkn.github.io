@@ -7,6 +7,7 @@ import pic04 from '../images/pic04.jpg'
 import pic10 from '../images/pic10.jpg'
 import pic260816_1 from '../images/pic260816_1.jpg'
 import pic260829_1 from '../images/pic260829_1.jpg'
+import pic261013 from '../images/pic261013.jpg'
 
 class Main extends React.Component {
   render() {
