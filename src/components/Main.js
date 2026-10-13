@@ -129,7 +129,65 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          
+
+          <h3>2026.11.05&#040;Thu&#041;</h3>
+          <img src={pic261013} alt="" 
+            style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
+          <p>
+            2026年11月05日(木)福島2nd LINE 『小鳥遊華恋生誕祭2026』
+            <br />
+            OPEN 17:00 / START 18:00
+            <br />
+            <br />
+            act
+            <br />
+            天女神樂 / いざ参らん / 沖田。
+            <br />
+            RONは沖田。でのギタリストとして参加
+            <br />
+            <br />
+            【前売】¥3,500（税込）＋1Drink／【当日】¥4,000（税込）＋1Drink
+            <br />
+            【写真撮影可能証】¥1,000（税込）　※撮影可否は出演者様それぞれの規定によります
+            <br />
+            【学生・女性 入場無料】　※学生無料は大学生（22歳）以下のみ・要学生証提示。無料入場の場合も別途ドリンク代が必要です。
+            <br />
+            <br />
+            【前売】LivePocket ¥3,500（税込）＋1Drink
+            <br />
+            販売期間：2026年10月07日(水)18:00〜2026年11月05日(木)18:00
+            <br />
+            <br />
+            チケット購入リンク
+            <br />
+            https://livepocket.jp/e/amanekagura20261105
+            <br />
+            <br />
+            【当日】¥4,000（税込）＋1Drink
+            <br />
+            <br />
+            【写真撮影可能証】¥1,000（税込）　※撮影可否は出演者様それぞれの規定によります
+            <br />
+            【学生・女性 入場無料】　※学生無料は大学生（22歳）以下のみ・要学生証提示。無料入場の場合も別途ドリンク代が必要です。
+            <br />
+            <br />
+            入場順
+            <br />
+            A（整理番号順）→ B（整列順）
+            <br />
+            <br />
+            主催
+            天女神樂
+            <br />
+            <br />
+            企画・制作
+            ANRI RECORDS
+            <br />
+            <br />
+            協力
+            Linaria Works、TMI ENTERTAINMENT、R Entertainment、株式会社ファースト、有限会社オフィス小出
+          </p>
+
           <h3>2026.08.29&#040;Sat&#041;</h3>
           <img src={pic260829_1} alt="" 
             style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
@@ -148,21 +206,6 @@ class Main extends React.Component {
             act ウルフルケイスケ
             <br />
             O.A RoNtmore
-          </p>
-
-          <h3>2026.08.16&#040;Sun&#041;</h3>
-          <img src={pic260816_1} alt="" 
-            style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
-          <p>
-            京都RAG
-            <br />
-            タルタルロックフェス最終日
-            <br />
-            TAMA(CASCADE)with ステシュラで
-            <br />
-            ギターで飛び入り参加します。
-            <br />
-            18:10～
           </p>
 
           <h3>2025.08.22&#040;Fri&#041;</h3>
@@ -242,6 +285,21 @@ class Main extends React.Component {
             ※O.A「ロントモア」＝ご当地シンガーソングライター・モア宮川と、バンド「DUFF」の元ギタリストRONによるユニット。RoNt more
             <br />
             <br />
+          </p>
+
+          <h3>2026.08.16&#040;Sun&#041;</h3>
+          <img src={pic260816_1} alt="" 
+            style={this.props.timeout ? { width: '100%' } : { width: '100%' }}/>
+          <p>
+            京都RAG
+            <br />
+            タルタルロックフェス最終日
+            <br />
+            TAMA(CASCADE)with ステシュラで
+            <br />
+            ギターで飛び入り参加します。
+            <br />
+            18:10～
           </p>
           {close}
         </article>
